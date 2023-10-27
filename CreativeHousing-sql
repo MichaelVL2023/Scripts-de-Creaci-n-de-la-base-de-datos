@@ -28,16 +28,16 @@ VALUES
 
 INSERT INTO membresias (codigo_usuario,codigo_plan,fecha_inicio,fecha_vencimiento,estado)
 VALUES
-    (1, 9000, '15-01-2023', '15-02-2023', 'Activa'),
-    (2, 9100, '20-02-2023', '20-03-2023', 'Activa'),
-    (3, 9200, '10-03-2023', '10-04-2023', 'Activa'),
-    (4, 9300, '01-07-2023', '01-08-2023', 'Pendiente'),
-    (5, 9400, '05-04-2023', '05-05-2024', 'Activa'),
-    (6, 9500, '15-06-2023', '15-07-2023', 'Pendiente'),
-    (7, 9600, '10-08-2023', '10-09-2024', 'Activa'),
-    (8, 9700, '05-09-2023', '05-10-2023', 'Pendiente'),
-    (9, 9800, '15-10-2023', '15-11-2024', 'Activa'),
-    (10, 9900, '20-11-2023', '20-12-2024', 'Activa');
+    (1, 9000, '2023-01-15', '2023-02-15', 'Activa'),
+    (2, 9100, '2023-02-20', '2023-03-20', 'Activa'),
+    (3, 9200, '2023-03-10', '2023-04-10', 'Activa'),
+    (4, 9300, '2023-07-01', '2023-08-01', 'Pendiente'),
+    (5, 9400, '2023-04-05', '2023-05-05', 'Activa'),
+    (6, 9500, '2023-06-15', '2023-07-15', 'Pendiente'),
+    (7, 9600, '2023-08-10', '2023-09-10', 'Activa'),
+    (8, 9700, '2023-09-05', '2023-10-05', 'Pendiente'),
+    (9, 9800, '2023-10-15', '2023-11-15', 'Activa'),
+    (10, 9900, '2023-11-20', '2023-12-20', 'Activa');
 
 
 INSERT INTO proyectos (codigo, codigo_usuario, nombre, fecha_de_creacion, descripcion, estado, ultima_modificacion)
@@ -56,16 +56,16 @@ VALUES
 
 INSERT INTO calificaciones_proyectos(codigo_usuario, codigo_proyecto, fecha_de_calificacion, puntuacion, comentario)
 VALUES
-    (10, 1101, '2023-10-26', '4', 'Excelente proyecto de renovación de la sala de estar.'),
-    (9, 1102, '2023-10-02','5','Muy satisfecho con el diseño de la cocina abierta.'),
-    (1, 1103, '2023-10-28','3','El proyecto de decoración del dormitorio necesita mejoras.'),
-    (2, 1104, '2023-10-22','4','Buen progreso en el rediseño de la oficina en casa.'),
-    (8, 1105, '2023-10-05','5','Diseño elegante y funcional del baño de invitados.'),
-    (7, 1106, '2023-10-20','2','No satisfecho con la reorganización del salón comedor.'),
-    (3, 1107, '2023-10-15','4','Esperando ver más avances en el diseño del jardín interior.'),
-    (4, 1108, '2023-10-08','5','Increíble trabajo en la renovación del cuarto de niños.'),
-    (5, 1109, '2023-10-10','3', 'La zona de entretenimiento necesita mejoras.'),
-    (6, 1110, '2023-10-17', '4', 'Buen progreso en la renovación del baño principal.');
+    (10, 1101, '2023-10-26', 4, 'Excelente proyecto de renovación de la sala de estar.'),
+    (9, 1102, '2023-10-02',5,'Muy satisfecho con el diseño de la cocina abierta.'),
+    (1, 1103, '2023-10-28',3,'El proyecto de decoración del dormitorio necesita mejoras.'),
+    (2, 1104, '2023-10-22',4,'Buen progreso en el rediseño de la oficina en casa.'),
+    (8, 1105, '2023-10-05',5,'Diseño elegante y funcional del baño de invitados.'),
+    (7, 1106, '2023-10-20',2,'No satisfecho con la reorganización del salón comedor.'),
+    (3, 1107, '2023-10-15',4,'Esperando ver más avances en el diseño del jardín interior.'),
+    (4, 1108, '2023-10-08',5,'Increíble trabajo en la renovación del cuarto de niños.'),
+    (5, 1109, '2023-10-10',3, 'La zona de entretenimiento necesita mejoras.'),
+    (6, 1110, '2023-10-17',4, 'Buen progreso en la renovación del baño principal.');
 
 
 INSERT INTO categorias (codigo, nombre_categoria)
